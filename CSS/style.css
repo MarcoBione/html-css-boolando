@@ -52,18 +52,30 @@
 
 
 /* =======header======= */
-ul{
+header ul{
     list-style: none;
     width: 100%;
     align-items: center;
 }
+ 
+header li{
+    padding: 5px;
+}
 
+header ul li{
+    color: var(--text-light);
+}
 header img{
-    max-width: 70%;
+    width: 150px;
+    outline: 1px solid red;
 }
 
 .categories, .logo, .user{
-    max-width: 250px;
+    max-width: calc(100% / 3);
+}
+
+header{
+    background-color: var(--heder-bg);
 }
 
 
