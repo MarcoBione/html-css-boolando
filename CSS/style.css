@@ -40,7 +40,7 @@
 }
 
 .up-padding{
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .d-flex{
@@ -84,15 +84,16 @@ header ul li{
 }
 header img{
     width: 150px;
-    outline: 1px solid red;
-}
-
-.categories, .logo, .user{
-    max-width: calc(100% / 3);
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: var(--heder-bg);
+    box-shadow: 0px 0px 3px;
+    z-index: 5000;
 }
 
 /* =======end header======= */
