@@ -30,18 +30,48 @@
     margin: 0 auto;
 }
 
+.padding-10{
+    padding : 10px;
+}
+
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+/* GENERAL-SET-UPS */
+
+
+/* =======header======= */
 ul{
     list-style: none;
+    width: 100%;
+    align-items: center;
 }
 
 header img{
-    width: 150px;
+    max-width: 70%;
+}
+
+.categories, .logo, .user{
+    max-width: 250px;
 }
 
 
 
 
 
+/* =======end header======= */
 
 
-/* GENERAL-SET-UPS */
+
+
