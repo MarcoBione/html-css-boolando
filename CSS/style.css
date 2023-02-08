@@ -35,6 +35,10 @@
     padding : 10px;
 }
 
+.padding-3{
+    padding: 3px;
+}
+
 .up-padding{
     padding-top: 25px;
 }
@@ -96,7 +100,7 @@ header{
 }
 
 .cards{
-    
+    position: relative;
 }
 
 .info{
@@ -105,6 +109,38 @@ header{
 
 article img{
     width: 100%;
+}
+
+div h4{
+    text-transform: uppercase;
+}
+
+div span:nth-child(3){
+    font-weight: bold;
+}
+
+.price{
+    color: var(--bg-red-badge);
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.badge{
+    position: absolute;
+    bottom: 110px;
+    color: var(--text-light);
+    font-size: 200;
+}
+
+.red-badge{
+    background-color: var(--bg-red-badge);
+}
+
+.green-badge{
+    background-color: var(--bg-green-badge);
+    font-weight: bold;
 }
 
 /* =======end main======= */
