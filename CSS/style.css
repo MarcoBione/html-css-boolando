@@ -48,13 +48,17 @@
     justify-content: center;
 }
 
+.just-end{
+    justify-content: flex-end;
+}
+
 /* GENERAL-SET-UPS */
 
 
 /* =======header======= */
 header ul{
     list-style: none;
-    width: 100%;
+    width: 200px;
     align-items: center;
 }
  
