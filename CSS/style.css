@@ -35,7 +35,6 @@
     padding : 10px;
 }
 
-
 .d-flex{
     display: flex;
     flex-flow: row wrap;
@@ -80,12 +79,16 @@ header{
     background-color: var(--heder-bg);
 }
 
-
-
-
-
 /* =======end header======= */
 
+/* =======main======= */
 
+.box{
+    max-width: calc(100% / 3);
+}
+
+
+
+/* =======end main======= */
 
 
