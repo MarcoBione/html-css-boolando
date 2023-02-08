@@ -1,5 +1,41 @@
+/* GENERAL-SET-UPS */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+    /* Color styles */
+:root{
+
+--heder-bg: #FF6900;
+--bg-cards: #E8E7E6;
+--bg-red-badge: #FF0000;
+--bg-green-badge: #008000;
+--bg-footer: #1A1A1A;
+--text-light: #FFFFFF;
+--text-dark: #000000;
+
+}
+
+    /* End color styles */
+
+.debug{
+    outline: 1px solid black;
+}
+
+.format{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/* GENERAL-SET-UPS */
