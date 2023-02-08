@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
     /* Color styles */
@@ -60,6 +61,7 @@ header ul{
  
 header li{
     padding: 5px;
+    font-weight: bold;
 }
 
 header ul li{
