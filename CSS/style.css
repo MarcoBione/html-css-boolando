@@ -22,7 +22,7 @@
 
     /* End color styles */
 
-.debug{
+.debu{
     outline: 1px solid black;
 }
 
@@ -54,6 +54,10 @@
 
 .just-center{
     justify-content: center;
+}
+
+.align-items{
+    align-items: center;
 }
 
 .just-end{
@@ -164,3 +168,44 @@ div span:nth-child(3){
 /* =======end main======= */
 
 
+/* =======footer======= */
+
+footer{
+    background-color: var(--bg-footer);
+    color: var(--text-light);
+}
+
+.footer-container{
+    margin-top: 50px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer h3, footer li{
+    padding: 5px;
+}
+
+footer p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.footer-info li{
+    font-size: 0.8rem;
+}
+
+.social-container li{
+    font-size: 1.2rem;
+}
+
+.footer-container{
+    padding:10px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+
+
+/* =======end footer======= */
