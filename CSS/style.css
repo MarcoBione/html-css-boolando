@@ -109,6 +109,7 @@ header{
 
 article img{
     width: 100%;
+    z-index: 1;
 }
 
 div h4{
@@ -132,6 +133,7 @@ div span:nth-child(3){
     bottom: 110px;
     color: var(--text-light);
     font-size: 200;
+
 }
 
 .red-badge{
@@ -142,6 +144,31 @@ div span:nth-child(3){
     background-color: var(--bg-green-badge);
     font-weight: bold;
 }
+
+.heart{
+    position: absolute;
+    background-color: var(--text-light);
+    color: var(--text-dark);
+    text-align: center;
+    width: 47px;
+    font-size: 30px;
+    top: 10px;
+    right: 0;
+}
+
+.heart:hover{
+    color: var(--bg-red-badge);
+    cursor: pointer;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+
+
 
 /* =======end main======= */
 
