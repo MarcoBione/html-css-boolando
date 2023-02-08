@@ -35,6 +35,10 @@
     padding : 10px;
 }
 
+.up-padding{
+    padding-top: 25px;
+}
+
 .d-flex{
     display: flex;
     flex-flow: row wrap;
@@ -91,7 +95,17 @@ header{
     max-width: calc(100% / 3);
 }
 
+.cards{
+    
+}
 
+.info{
+    max-width: 100%;
+}
+
+article img{
+    width: 100%;
+}
 
 /* =======end main======= */
 
