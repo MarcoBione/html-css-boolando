@@ -108,6 +108,17 @@ header{
     position: relative;
 }
 
+.secondary{
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: none;
+}
+
+.cards:hover img.secondary{
+    display: block;   
+}
+
 .info{
     max-width: 100%;
 }
@@ -137,16 +148,19 @@ div span:nth-child(3){
     bottom: 110px;
     color: var(--text-light);
     font-size: 200;
+    z-index: 1000;
 
 }
 
 .red-badge{
     background-color: var(--bg-red-badge);
+    z-index: 1000;
 }
 
 .green-badge{
     background-color: var(--bg-green-badge);
     font-weight: bold;
+    z-index: 1000;
 }
 
 .heart{
@@ -158,6 +172,8 @@ div span:nth-child(3){
     font-size: 30px;
     top: 10px;
     right: 0;
+    z-index: 1000;
+
 }
 
 .heart:hover{
