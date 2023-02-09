@@ -116,7 +116,8 @@ header{
 }
 
 .cards:hover img.secondary{
-    display: block;   
+    display: block;
+    cursor:  pointer;  
 }
 
 .info{
